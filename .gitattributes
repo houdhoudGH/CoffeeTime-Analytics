@@ -1,0 +1,23 @@
+# Auto normalize all text files on checkout and commit
+* text=auto
+
+# Enforce LF line endings for common text files
+*.py text eol=lf
+*.ipynb text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+
+# Binary files should not be converted
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.gz binary
+*.mp4 binary
+*.mov binary
