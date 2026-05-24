@@ -68,13 +68,13 @@ Raw CSV Sales Data (index_1.csv)
 The home page sets the stage: a clean hero section with the project title, followed by four key insight cards that surface the most important findings from the data immediately — no digging required.
 
 <div align="center">
-  <img src="Screenshot_2026-05-24_160600.png" width="85%" alt="CoffeeTime Home Hero"/>
+  <img src="Screenshot 2026-05-24 160600.png" width="85%" alt="CoffeeTime Home Hero"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="Screenshot_2026-05-24_160652.png" width="85%" alt="Key Insights Cards"/>
+  <img src="Screenshot 2026-05-24 160652.png" width="85%" alt="Key Insights Cards"/>
 </div>
 
 The four insight cards give any visitor — technical or not — an instant read on the business:
@@ -91,21 +91,21 @@ The four insight cards give any visitor — technical or not — an instant read
 The EDA page is built around one idea: **you shouldn't need to read a notebook to understand the data**. All charts are interactive, filterable, and live — pulling from the REST API in real time.
 
 <div align="center">
-  <img src="Screenshot_2026-05-24_160709.png" width="85%" alt="EDA Stats Banner and Filters"/>
+  <img src="Screenshot 2026-05-24 160709.png" width="85%" alt="EDA Stats Banner and Filters"/>
 </div>
 
 A live stats banner at the top shows total revenue, transaction count, and days analyzed — always up to date from the API. Below it, dynamic filters let you slice by date range, coffee type, and grouping (monthly, daily, hourly).
 
 <div align="center">
-  <img src="Screenshot_2026-05-24_160834.png" width="85%" alt="Monthly Sales Trend Chart.js and D3 Sales by Coffee Type"/>
+  <img src="Screenshot 2026-05-24 160834.png" width="85%" alt="Monthly Sales Trend Chart.js and D3 Sales by Coffee Type"/>
 </div>
 
 <div align="center">
-  <img src="Screenshot_2026-05-24_160855.png" width="85%" alt="Daily granularity view"/>
+  <img src="Screenshot 2026-05-24 160855.png" width="85%" alt="Daily granularity view"/>
 </div>
 
 <div align="center">
-  <img src="Screenshot_2026-05-24_160921.png" width="85%" alt="Filtered by coffee type — Espresso only"/>
+  <img src="Screenshot 2026-05-24 160921.png" width="85%" alt="Filtered by coffee type — Espresso only"/>
 </div>
 
 Two live chart panels sit side by side:
@@ -131,7 +131,7 @@ This is exploratory data analysis made genuinely accessible: a non-technical man
 The modeling page does something most forecasting projects skip: it shows the **work**, not just the result. Every model decision is explained, every metric is visible, and the best result is put in context.
 
 <div align="center">
-  <img src="Screenshot_2026-05-24_161002.png" width="85%" alt="Model MAE Comparison and SARIMAX Forecast"/>
+  <img src="Screenshot 2026-05-24 161002.png" width="85%" alt="Model MAE Comparison and SARIMAX Forecast"/>
 </div>
 
 The performance visualization puts all three models side by side:
@@ -151,7 +151,7 @@ The SARIMAX forecast chart shows historical sales alongside the 3-month predicti
 This is the feature that turns the modeling page from a results slide into a learning tool. Instead of just showing the best model, we let visitors **tune the parameters themselves** and watch the forecast react.
 
 <div align="center">
-  <img src="Screenshot_2026-05-24_161049.png" width="85%" alt="Interactive ARIMA Playground with sliders"/>
+  <img src="Screenshot 2026-05-24 161049.png" width="85%" alt="Interactive ARIMA Playground with sliders"/>
 </div>
 
 Three sliders control **p** (autoregressive order), **d** (differencing), and **q** (moving average). Every change triggers a live API call that returns a new simulated forecast, rendered immediately on the chart.
@@ -169,19 +169,19 @@ The playground is the clearest demonstration that we didn't just run models — 
 Every page has a floating Coffee Assistant in the bottom-right corner, powered by **Llama 3.1-8B**. It's not a generic FAQ bot — it reads live sales data and injects it into every prompt, so it can answer questions grounded in the actual numbers.
 
 <div align="center">
-  <img src="Screenshot_2026-05-24_161123.png" width="85%" alt="Chatbot answering navigation question"/>
+  <img src="Screenshot 2026-05-24 161123.png" width="85%" alt="Chatbot answering navigation question"/>
 </div>
 
 <div align="center">
-  <img src="Screenshot_2026-05-24_161209.png" width="85%" alt="Chatbot answering most and least sold coffee type"/>
+  <img src="Screenshot 2026-05-24 161209.png" width="85%" alt="Chatbot answering most and least sold coffee type"/>
 </div>
 
 <div align="center">
-  <img src="Screenshot_2026-05-24_161257.png" width="85%" alt="Chatbot answering data question"/>
+  <img src="Screenshot 2026-05-24 161257.png" width="85%" alt="Chatbot answering data question"/>
 </div>
 
 <div align="center">
-  <img src="Screenshot_2026-05-24_161414.png" width="85%" alt="Chatbot forecasting next hour demand"/>
+  <img src="Screenshot 2026-05-24 161414.png" width="85%" alt="Chatbot forecasting next hour demand"/>
 </div>
 
 **What the assistant can do:**
@@ -222,7 +222,7 @@ f"Total revenue: ${total_rev} from {total_trans} transactions.
 ## 🎨 UI Features
 
 <div align="center">
-  <img src="Screenshot_2026-05-24_162153.png" width="85%" alt="Full platform overview"/>
+  <img src="Screenshot 2026-05-24 162153.png" width="85%" alt="Full platform overview"/>
 </div>
 
 - **4 color themes**: Coffee (default), Pink, Blue, Green — switchable from navbar
