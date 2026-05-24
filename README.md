@@ -26,7 +26,7 @@ with a <strong>data-aware AI chatbot</strong> that answers questions about your 
 ## 🎬 Demo Video
 
 <!-- Upload your video to YouTube, take a screenshot as thumbnail, save as docs/images/video_thumbnail.png -->
-[![CoffeeTime Demo](imagecopy.png)](https://youtu.be/EGDQrwUQz0w)
+[![CoffeeTime Demo](Screenshot 2026-05-20 133438.png)](https://youtu.be/EGDQrwUQz0w)
 
 *Click to watch the full platform walkthrough*
 
